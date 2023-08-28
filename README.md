@@ -4,13 +4,13 @@
 Desafio Técnico utilizando Robot Framework - automação Frontend.
 
 ## Instruções
-1. Baixe e instale o Python: [https://www.python.org/downloads/]
+1. Baixe e instale o Python: [https://www.python.org/downloads/];
 
-2. Clone o repositório: `git clone git@github.com` (SSH) or `git clone https://github.com/` (HTTPS) no editor ou IDE de sua preferência
+2. Clone o repositório: `git@github.com:bpmello/desafiotecnico-drconsulta.git` (SSH) or `[git clone https://github.com/](https://github.com/bpmello/desafiotecnico-drconsulta.git)` (HTTPS) no editor ou IDE de sua preferência;
 
-3. No diretório raiz do projeto rode os comandos `pip install robotframework`, pip install --upgrade robotframework-seleniumlibrary`` e `pip install robotframework-faker` para instalação do framework e suas respectivas libraries
+3. No diretório raiz do projeto rode os comandos `pip install robotframework` e pip install --upgrade robotframework-seleniumlibrary` para instalação do framework e suas respectivas libraries;
 
-4. Baixe o arquivo chromedriver no site `https://chromedriver.chromium.org/downloads` e recomendo que coloque na pasta scripts, dentro do local onde foi instalado o Python para execução dos testes no navegador Chrome, caso ocorra algum erro na execução dos testes frontend, confira se a versão do arquivo é compatível com a versão de seu navegador Chrome.
+4. Baixe o arquivo geckodriver no site `https://firefox-source-docs.mozilla.org/testing/geckodriver/index.html` e recomendo que coloque na pasta scripts (para uso de outro navegador, utilize o seu respectivo arquivo de drive), dentro do local onde foi instalado o Python para execução dos testes no navegador Firefox, caso ocorra algum erro na execução dos testes frontend, confira se a versão do arquivo é compatível com a versão de seu navegador;
 
 5. Para execução dos testes, nas respectivas pastas do mesmo, rode os comandos abaixo:
 
@@ -25,5 +25,6 @@ Desafio Técnico utilizando Robot Framework - automação Frontend.
 ├─ ├─resource/                              # Diretório onde ficam os arquivos de resource do robotframework
 ├─ ├─test/                                  # Scripts de testes
 ├──────────────├─Results/                   # Diretório onde ficam armazenados as evidências e log de execução dos testes
+└─ gitigonre                                # Arquivo utilizado para ignorar 'commits' no git
 └─ README.md                                # Esse arquivo
 ```
